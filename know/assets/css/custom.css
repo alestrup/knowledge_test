@@ -1,0 +1,144 @@
+body, html{
+    background-color: #F6F6F6;
+    height:100%;
+}
+
+.rounded{
+    border-radius: 25px !important;
+}
+
+.shortfieldz .zmdi-link {
+    position: absolute;
+    top: 10px;
+    left: 20px; 
+    color: #8c8c8c;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.arrow{
+    position: absolute;
+    right: 32px;
+    margin-top: 8px;
+}
+
+.shortfieldz .zmdi-link-right {
+    position: absolute;
+    top: 10px;
+    right: 20px; 
+    color: #8c8c8c;
+    border-radius: 20px;
+    pointer-events: none;
+}
+.main-input {
+    padding: 20px 60px;
+    font-size:15px;
+    color: #9A8E7F;
+}
+
+.main-input::placeholder{
+    color: #B2B2B2;
+}
+
+.main-input:focus{
+    outline: none !important;
+    border:1px solid #EC8D3C;
+    box-shadow: none !important;
+    color: #EC8D3C;
+}
+
+.btn-orange{
+    color: #fff;
+    background-color: #EC8D3C;
+    border-color: #EC8D3C;
+}
+
+.btn-orange:hover{
+    color: #fff;
+    background-color: #DD5C00;
+}
+
+.btn-orange:disabled{
+    background-color: #E3E1E3;
+    color:black;
+    border-color: #E3E1E3;
+}
+
+.btn{
+    font-size:16px;
+}
+
+#table-container{
+    min-height: 485px;
+}
+
+.table thead{
+    background-color: #EC8D3C; 
+    border: none;
+}
+
+.student-name{
+    color: #9A8E7F;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: white;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #EBEBEB;
+}
+
+.dropdown-dots{
+    background-color:transparent;
+    color:black;
+    font-weight: bold;
+    border:none;
+    padding:0 !important;
+}
+
+.dropdown-dots:after{
+    display: none;
+}
+
+.dropdown-dots:focus{
+    outline: none !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+.page-link{
+    background-color:transparent;
+    border: none;
+    color:black;
+}
+
+.page-item.active .page-link{
+    background-color: transparent;
+    color:black;
+    border-bottom: 1px solid #EC8D3C;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor:pointer;
+    background-color:transparent;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.page-link:hover {
+    border-bottom: 1px solid #EC8D3C;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+footer{
+    background-color: #EBEBEB;
+    font-size:18px;
+    font-weight: 400;
+    cursor:pointer;
+}

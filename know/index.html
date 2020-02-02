@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+   
+    <title>Knowledge City</title>
+  </head>
+
+  <body>
+    <div class="container-fluid h-100">
+      <div class="row justify-content-center align-items-center h-100">
+          <div class="col col-sm-8 col-md-6 col-lg-4 col-xl-4">
+              <img class='img-fluid' src="./assets/images/Logo.svg" alt=""> 
+              <h5 class='mt-5 mb-0'>Welcome to the Learning Management System</h5>
+              <p class='pt-0'>Please log in to continue</p>
+              <form id="login_form">
+                  <div class="form-group">
+                    <div class="col-md-12 shortfieldz pr-0 pl-0">
+                      <img src="./assets/images/user.svg" class="img-responsive zmdi zmdi-link" alt="Responsive image " width="30" height="24" /> 
+                      <input type="email" class="form-control form-control-lg rounded main-input"  id='email' name='email' value="" placeholder="Username" required /> 
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12 shortfieldz pr-0 pl-0">
+                      <img src="./assets/images/password.svg" class="img-responsive zmdi zmdi-link" alt="Responsive image " width="30" height="24" /> 
+                      <input type="password" class="form-control form-control-lg rounded main-input"  id='password' name='password' value="" placeholder="Password" required /> 
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col col-sm-offset-1">
+                      <label class="checkbox">
+                        <input type="checkbox" id="remember" name='remember' value="checked"> Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <div class="alert alert-danger d-none" id='login_error' role="alert">
+                    Login failed wrong user credentials
+                  </div>
+                  <div class="form-group mt-5">
+                      <img src="./assets/images/arrow.png" class="img-responsive arrow" alt="Responsive image " width="25" /> 
+                      <input type="submit" name='submit' id="login" class="btn btn-orange btn-lg btn-block rounded shadow text-left" value="Log in">
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/jquery.cookie.js"></script>
+    <script src="./providers/session_manager.js"></script>
+    <script src="./providers/api/api.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
